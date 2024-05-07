@@ -1,0 +1,30 @@
+.serach-bar {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    max-width: 500px;
+    justify-content: space-between;
+    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.753);
+    gap: 13px;
+    padding-right: 13px;
+}
+
+.search___input {
+    padding: 13px;
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    font-size: 0.8rem;
+    font-weight: 500px;
+    border-right: 1px solid #ddd;
+}
+
+.search___button {
+    background: none;
+    border: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    cursor: pointer;
+}

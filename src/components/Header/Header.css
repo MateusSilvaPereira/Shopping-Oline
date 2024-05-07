@@ -1,0 +1,24 @@
+.header {
+    background-color: #4caac2;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.header>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 50px;
+    cursor: pointer;
+}
+
+.logoTitle {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(94, 4, 27, 0.952);
+    font-size: 20px;
+}
